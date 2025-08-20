@@ -5,10 +5,10 @@
 ---
 
 ## 🧑‍💻 About Me
-💡 Embedded Systems & Backend Developer  
+💡 DevOps & Backend Developer  
 🔭 Currently working on **Smart Factory Automation Project**  
 🐟 Built **AquaTrack**, an IoT-based smart aquarium management system  
-☁️ Interested in **Cloud, AI, and IoT Integration**  
+☁️ Interested in **Backend,Cloud, DevOps**  
 
 ---
 
@@ -58,7 +58,7 @@
 - 🐟 [**AquaTrack**](https://github.com/MinHy9/AquaTrack)  
   IoT-based smart aquarium management system with Spring Boot backend, MQTT communication, and AWS cloud deployment.
 
-- 🏭 [**Smart Factory**](https://github.com/KSEB-04-2025)  
+- 🏭 [**Smart Factory**](https://github.com/ZEZEONE-VODA)  
   Raspberry Pi & Arduino based automated defect detection and grading system using AI and Google Cloud Storage.
 
 ---
