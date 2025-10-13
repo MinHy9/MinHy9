@@ -31,7 +31,8 @@
 ---
 
 ## 📧 Email
-<p align="center"><strong>your-email@gmail.com</strong></p>
+<p align="center"><strong>ymh097752@gmail.com</strong></p>
+<p align="center"><strong>ymh0977@naver.com</strong></p>
 
 ---
 
