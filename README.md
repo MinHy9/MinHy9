@@ -5,7 +5,7 @@
 ---
 
 ## 🧑‍💻 About Me
-💡 DevOps & Backend Developer  
+💡 DevOps & Cloud Engineer 
 🔭 worked on **Smart Factory Automation Project**  
 🐟 Built **AquaTrack**, an IoT-based smart aquarium management system  
 ☁️ Interested in **Backend,Cloud, DevOps**  
