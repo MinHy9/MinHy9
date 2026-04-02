@@ -1,73 +1,116 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=F5C0CA&text=MinHy9's%20GitHub&height=150&fontSize=60&descAlignY=75&descAlign=60" alt="MinHy9's GitHub">
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=8EA7E9&text=MinHy9&height=120&fontSize=48&desc=AWS%20%7C%20DevOps%20%7C%20Cloud%20Automation&descAlignY=70&descAlign=50" alt="MinHy9" />
+  <br />
+  <b>AWS 운영 자동화와 IaC, GitOps에 집중하는 개발자</b>
 </div>
 
 ---
 
-## 🧑‍💻 About Me
-💡 DevOps & Cloud Engineer 
-🔭 worked on **Smart Factory Automation Project**  
-🐟 Built **AquaTrack**, an IoT-based smart aquarium management system  
-☁️ Interested in **Backend,Cloud, DevOps**  
+## About Me
+- AWS 기반 운영 자동화, IaC, GitOps, Backend를 중심으로 경험을 쌓고 있습니다.
+- 대표 프로젝트는 **ACS-DnDn**이며, `DnDn-App` / `DnDn-Infra` / `DnDn-HR`를 넘나들며 개발과 배포를 함께 다뤘습니다.
+- `DnDn-App`에서는 **CloudTrail / AWS Config / AWS Health 기반 worker 기능**, **S3 산출물 업로드**, **AssumeRole 기반 수집 흐름**, **데이터 정합성 개선** 작업을 진행했습니다.
+- `DnDn-Infra`에서는 **Terraform**, **External Secrets**, **Argo CD GitOps**, **CI workflow** 작업을 진행했습니다.
+- 다른 ACS 계열 프로젝트로는 **ACS-RED**에서 AWS EC2 기반 **3-Tier / HA 구조**를 실습했습니다.
 
 ---
 
-## 🧑‍💻 Contact Me
+## Representative Project
+
+### ☁️ ACS-DnDn
+> AWS 운영 이벤트를 수집하고, 운영자가 바로 판단할 수 있는 대시보드 · 문서 · 보고서 · Terraform Draft로 연결하는 클라우드 운영 플랫폼
+
+- **Organization**  
+  [ACS-DnDn](https://github.com/acs-dndn)
+
+- **Repositories**
+  - [DnDn-App](https://github.com/ACS-DnDn/DnDn-App)  
+    React/TypeScript Web, FastAPI API, AWS 수집 Worker, Report Service
+  - [DnDn-Infra](https://github.com/ACS-DnDn/DnDn-Infra)  
+    Terraform, CloudFormation, Lambda, Argo CD 기반 GitOps 인프라
+  - [DnDn-HR](https://github.com/ACS-DnDn/DnDn-HR)  
+    사용자 · 부서 · 권한 관리용 HR 포털
+
+- **What I Worked On**
+  - CloudTrail 주간 수집 및 canonical JSON 정규화
+  - 리소스별 AWS Config 상태 보강 및 오류 이유 개선
+  - raw / normalized 산출물 S3 업로드 기능 추가
+  - AssumeRole 기반 고객 계정 수집 지원
+  - AWS Health 이벤트 소스 확장
+  - External Secrets 기반 secret 관리 전환
+  - Argo CD 배포 흐름 및 Terraform workflow 개선
+
+---
+
+## Other ACS Projects
+
+### 🏇 ACS-RED
+> AWS EC2 환경에서 3-Tier(Web-App-DB) 구조와 고가용성(HA)을 검증한 실습 프로젝트
+
+- **Organization**  
+  [ACS-RED](https://github.com/ACS-RED)
+
+- **Repository**
+  - [source-code](https://github.com/ACS-RED/source-code)
+
+- **Project Highlights**
+  - Spring Boot 기반 실시간 레이스 / 베팅 웹 서비스
+  - AWS EC2, Nginx, RDS(MySQL) 기반 3-Tier 구성
+  - Active-Active 환경에서 DB 기반 Leader Election으로 스케줄러 중복 실행 문제 해결
+  - PRD / DEV VPC 분리, VPC Peering, Bastion, Auto Scaling 구조를 포함한 인프라 실습
+
+---
+
+## Tech Stack
+
+### Cloud / DevOps
+<p>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white" />
+  <img src="https://img.shields.io/badge/CloudFormation-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Argo%20CD-EF7B4D?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+</p>
+
+### Backend / App
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+</p>
+
+### Data / Platform
+<p>
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white" />
+  <img src="https://img.shields.io/badge/EKS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQS-FF4F8B?style=for-the-badge&logo=amazonaws&logoColor=white" />
+</p>
+
+---
+
+## Contact
 <div align="center">
-  <a href="https://your-tistory-url">
-    <img src="https://img.shields.io/badge/Tistory-000000?style=for-the-badge&logo=Tistory&logoColor=white">
-  </a>
-  <a href="https://lush-soursop-922.notion.site/15d2ebb7e31e80759b5dea8c1a4f27ff?source=copy_link">
-    <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
-  </a>
-  <a href="https://www.instagram.com/your-instagram">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white">
-  </a>
   <a href="mailto:ymh097752@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="mailto:ymh0977@naver.com">
+    <img src="https://img.shields.io/badge/Naver-03C75A?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/MinHy9">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </div>
 
 ---
 
-## 📧 Email
-<p align="center"><strong>ymh097752@gmail.com</strong></p>
-<p align="center"><strong>ymh0977@naver.com</strong></p>
-
----
-
-## ✨ Tech Stack ✨
+## GitHub Stats
 <div align="center">
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white">
-  <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=FastAPI&logoColor=white">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
-  <br/>
-  <img src="https://img.shields.io/badge/RaspberryPi-C51A4A?style=for-the-badge&logo=RaspberryPi&logoColor=white">
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
-  <img src="https://img.shields.io/badge/AmazonAWS-232F3E?style=for-the-badge&logo=AmazonAWS&logoColor=white">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=Github&logoColor=white">
-</div>
-
----
-
-## 📂 Featured Projects
-- 🐟 [**AquaTrack**](https://github.com/MinHy9/AquaTrack)  
-  IoT-based smart aquarium management system with Spring Boot backend, MQTT communication, and AWS cloud deployment.
-
-- 🏭 [**Smart Factory**](https://github.com/ZEZEONE-VODA)  
-  Raspberry Pi & Arduino based automated defect detection and grading system using AI and Google Cloud Storage.
-
----
-
-## 📊 GitHub Stats
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MinHy9&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MinHy9&layout=compact&theme=radical)
-
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=MinHy9&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MinHy9&layout=compact&theme=tokyonight&hide_border=true" />
 </div>
