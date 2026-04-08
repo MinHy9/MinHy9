@@ -111,6 +111,14 @@
 
 ## GitHub Stats
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=MinHy9&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MinHy9&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="165" src="./profile/stats.svg" alt="GitHub Stats" />
+</div>
+
+---
+
+## Representative Repositories
+<div align="center">
+  <img height="140" src="./profile/pin-dndn-app.svg" alt="DnDn-App" />
+  <img height="140" src="./profile/pin-dndn-infra.svg" alt="DnDn-Infra" />
+  <img height="140" src="./profile/pin-acs-red.svg" alt="ACS-RED" />
 </div>
