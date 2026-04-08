@@ -117,8 +117,8 @@
 ---
 
 ## Representative Repositories
-<div align="center">
-  <img height="140" src="./profile/pin-dndn-app.svg" alt="DnDn-App" />
-  <img height="140" src="./profile/pin-dndn-infra.svg" alt="DnDn-Infra" />
-  <img height="140" src="./profile/pin-acs-red.svg" alt="ACS-RED" />
-</div>
+## <div align="center">
+##  <img height="140" src="./profile/pin-dndn-app.svg" alt="DnDn-App" />
+##  <img height="140" src="./profile/pin-dndn-infra.svg" alt="DnDn-Infra" />
+##  <img height="140" src="./profile/pin-acs-red.svg" alt="ACS-RED" />
+## </div>
